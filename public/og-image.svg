@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#f8f6f3"/>
+  <defs>
+    <linearGradient id="og-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <circle cx="200" cy="315" r="120" fill="url(#og-grad)" opacity="0.08"/>
+  <circle cx="200" cy="315" r="80" stroke="#7c3aed" stroke-width="4" fill="none" opacity="0.5"/>
+  <circle cx="200" cy="315" r="50" stroke="#7c3aed" stroke-width="2" fill="none" opacity="0.3"/>
+  <circle cx="200" cy="315" r="30" fill="url(#og-grad)" opacity="0.15"/>
+  <text x="380" y="280" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="72" font-weight="800" fill="#1a1612">幻境</text>
+  <text x="380" y="340" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="28" font-weight="400" fill="#8a7e6f">AI 角色扮演 · 沉浸式聊天体验</text>
+  <text x="380" y="390" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="20" fill="#b5a99a">多角色 · 世界书 · 分层记忆 · 状态面板 · 多API支持</text>
+  <circle cx="1060" cy="180" r="40" fill="#7c3aed" opacity="0.06"/>
+  <circle cx="1100" cy="480" r="60" fill="#a855f7" opacity="0.05"/>
+  <circle cx="950" cy="100" r="25" fill="#7c3aed" opacity="0.04"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="portal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer glow circle -->
+  <circle cx="64" cy="64" r="58" fill="url(#glow)"/>
+  <!-- Portal ring -->
+  <circle cx="64" cy="64" r="44" stroke="url(#portal)" stroke-width="5" fill="none" opacity="0.8"/>
+  <!-- Inner portal -->
+  <circle cx="64" cy="64" r="32" stroke="url(#portal)" stroke-width="3" fill="none" opacity="0.5"/>
+  <!-- Crystal orb center -->
+  <circle cx="64" cy="64" r="20" fill="url(#portal)" opacity="0.15"/>
+  <circle cx="64" cy="64" r="20" stroke="#7c3aed" stroke-width="2" fill="none" opacity="0.6"/>
+  <!-- Stars -->
+  <circle cx="64" cy="44" r="2.5" fill="#7c3aed" opacity="0.9"/>
+  <circle cx="48" cy="56" r="2" fill="#a855f7" opacity="0.8"/>
+  <circle cx="80" cy="56" r="2" fill="#a855f7" opacity="0.8"/>
+  <circle cx="56" cy="76" r="1.5" fill="#c084fc" opacity="0.7"/>
+  <circle cx="72" cy="76" r="1.5" fill="#c084fc" opacity="0.7"/>
+  <!-- Top star accent -->
+  <path d="M64 28 L65.5 34 L72 34 L67 38 L69 44 L64 40 L59 44 L61 38 L56 34 L62.5 34 Z" fill="#7c3aed" opacity="0.85"/>
+</svg>
